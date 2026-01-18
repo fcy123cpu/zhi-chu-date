@@ -1,11 +1,19 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "智楚Date",
+  "short_name": "智楚Date",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "orientation": "any",
   "scope": "/",
-  "short_name": "zhichu-date.vercel",
-  "start_url": "/https://zhichu-date.vercel.app",
-  "theme_color": "#ffffff"
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
