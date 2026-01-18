@@ -1,0 +1,42 @@
+{
+  "projectType": "twa",
+  "twaManifest": {
+    "packageId": "com.zhichu.date.app",
+    "name": "智楚date",
+    "launchUrl": ".",
+    "host": "localhost:3000",
+    "themeColor": "#2E5B88",
+    "backgroundColor": "#F7F9FC",
+    "enableNotifications": false,
+    "shortcuts": [],
+    "splashScreen": {
+      "imageUrl": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#2E5B88"
+    },
+    "icons": [
+      {
+        "src": "https://cdn-icons-png.flaticon.com/512/5948/5948565.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn-icons-png.flaticon.com/512/5948/5948565.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  "android": {
+    "versionCode": 1,
+    "versionName": "1.0.0",
+    "signingKey": {
+      "path": "./android.keystore",
+      "alias": "android",
+      "storePassword": "android",
+      "keyPassword": "android"
+    },
+    "distDir": "../dist",
+    "allowHttp": true
+  }
+}
